@@ -1,7 +1,21 @@
 {
-    "version": "1.0",
-    "application": "Test",
-    "history": "foo",
-    "releases": [
-    ]
+  "version": "1.0",
+  "application": "Test",
+  "history": "foo",
+  "releases": [
+    {
+      "date": "01 March 2017 16:30:04",
+      "version": "4.1.0",
+      "quality": "developer",
+      "platform": "android",
+      "platformMinVersion": "16.0.0",
+      "downloadUri": "https://cloud.linn.co.uk/applications/linn.faketools/developer/Linn.FakeTools_4.1.0_all.apk",
+      "updateUri": "https://cloud.linn.co.uk/applications/linn.faketools/developer/Linn.FakeTools_4.1.0_all.apk",
+      "notes": [
+        "Tidied up code",
+        "Added update feed generation helpers",
+        "Added release notes to nuget package"
+      ]
+    }
+  ]
 }
